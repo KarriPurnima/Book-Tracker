@@ -59,7 +59,7 @@ Then, open your browser and visit:
 
 http://localhost:3000
 
-📌 Tech Stack
+📌 Tech Stack:
 Node.js
 Express
 MongoDB
@@ -67,8 +67,10 @@ EJS
 CSS
 
 ✨ Author
+
 Karri Purnima
 https://github.com/KarriPurnima
 
 📄 License
+
 This project is open-source and available under the MIT License.
