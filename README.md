@@ -37,6 +37,7 @@ BookTracker/
 1️⃣ Clone the Repository
 
 git clone https://github.com/KarriPurnima/Book-Tracker.git
+
 cd Book-Tracker
 
 2️⃣ Install Dependencies
@@ -47,12 +48,14 @@ npm install
 Create a .env file in the root directory and add your MongoDB connection string:
 
 MONGO_URI=your_mongodb_connection_string
+
 PORT=3000
 
 4️⃣ Run the Application
 
 node app.js
 Then, open your browser and visit:
+
 http://localhost:3000
 
 📌 Tech Stack
