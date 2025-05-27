@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Tracker</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>📚 My Book Notes</h1>
+  <a href="/add">➕ Add New Book</a>
+  <div>
+    <a href="/?sort=-rating">Sort by Rating</a> |
+    <a href="/?sort=-read_date">Sort by Recency</a> |
+    <a href="/?sort=title">Sort by Title</a>
+  </div>
+  <div class="book-list">
+    <% books.forEach(book => { %>
+      <div class="book-card">
+        <% if (book.cover_id) { %>
+          <img src="https://covers.openlibrary.org/b/id/<%= book.cover_id %>-M.jpg" alt="cover">
+        <% } else { %>
+          <div>No Cover</div>
+        <% } %>
+        <h3><%= book.title %></h3>
+        <p>Author: <%= book.author %></p>
+        <p>Rating: <%= book.rating %>/5</p>
+        <p>Review: <%= book.review %></p>
+        <p>Read on: <%= book.read_date?.toDateString() %></p>
+        <form method="POST" action="/delete/<%= book._id %>">
+          <button>Delete</button>
+        </form>
+        <a href="/edit/<%= book._id %>">Edit</a>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>

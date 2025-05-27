@@ -1,0 +1,180 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #f5e1f7, #e0f7ff);
+  color: #4a186b;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Header Container */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.header-container h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 2.5rem;
+  color: #8e44ad;
+}
+
+.header-container img {
+  width: 50px;
+  height: auto;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  background-color: #b36ae2;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: 0 4px 10px rgba(179, 106, 226, 0.3);
+}
+
+nav a:hover {
+  background-color: #9441c3;
+}
+
+/* Sort Buttons */
+.sort-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.sort-options a {
+  background-color: #9b5de5;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  box-shadow: 0 3px 8px rgba(155, 93, 229, 0.25);
+  transition: background 0.3s ease;
+}
+
+.sort-options a:hover {
+  background-color: #6a00f4;
+}
+
+/* Book Cards */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.book-card {
+  background-color: #f8f0ff;
+  border: 2px solid #e0d4ff;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 260px;
+  box-shadow: 0 6px 16px rgba(153, 102, 204, 0.2);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-6px);
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  border: 1px solid #d4bfff;
+}
+
+.book-card h3 {
+  font-size: 1.2rem;
+  color: #5e2b97;
+}
+
+.book-card p {
+  font-size: 0.9rem;
+  color: #512d6d;
+  margin-top: 4px;
+}
+
+/* Butterfly Icon on Each Card */
+.book-card::before {
+  content: "🦋";
+  font-size: 1.4rem;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+/* Forms */
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  background-color: #f3eaff;
+  border: 2px solid #d9c8ff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(204, 153, 255, 0.3);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid #d2bfff;
+  background-color: #fefaff;
+  font-size: 0.95rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Utility Classes */
+.center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
