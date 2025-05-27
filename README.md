@@ -15,20 +15,7 @@ A simple web application to track your books, add notes, and manage your persona
 
 ## 📂 Project Structure
 
-Book-Tracker/
-├── models/
-│ └── Book.js
-├── public/
-│ └── css/
-│ └── styles.css
-├── views/
-│ ├── add.ejs
-│ ├── edit.ejs
-│ └── index.ejs
-├── .env
-├── app.js
-├── package-lock.json
-└── README.md
+![Project Structure](public/images/structure.jpg)
 
 ---
 
