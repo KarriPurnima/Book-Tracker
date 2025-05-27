@@ -33,6 +33,7 @@ BookTracker/
 ---
 
 ⚙️ How to Run the Project
+
 1️⃣ Clone the Repository
 
 git clone https://github.com/KarriPurnima/Book-Tracker.git
