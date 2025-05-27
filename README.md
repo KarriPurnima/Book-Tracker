@@ -54,6 +54,7 @@ PORT=3000
 4️⃣ Run the Application
 
 node app.js
+
 Then, open your browser and visit:
 
 http://localhost:3000
