@@ -22,7 +22,7 @@ A simple web application to track your books, add notes, and manage your persona
 ## Demo-Video
 
 ![Click here to watch](
-https://github.com/user-attachments/assets/2ef68f40-57d6-4778-b318-08bfda806990)
+https://github.com/user-attachments/assets/2fac06b0-fd30-4cfd-a903-75d051464a99)
 
 
 ⚙️ How to Run the Project
